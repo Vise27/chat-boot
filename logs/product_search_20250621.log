@@ -1,0 +1,162 @@
+2025-06-21 17:14:08 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:14:08 - INFO - Conversación eliminada por edad: 4d61ada2-9804-4f2a-b370-ade9d8a190ac.json
+2025-06-21 17:14:08 - INFO - Conversación eliminada por edad: 711b616a-406b-45f8-bace-0e8f1e462d8b.json
+2025-06-21 17:14:08 - INFO - Conversación eliminada por edad: 9c547848-278a-43c4-b3df-1be20f0db7c0.json
+2025-06-21 17:14:08 - INFO - Conversación eliminada por edad: ad3b0514-daf9-4394-8d04-c82d11cca7af.json
+2025-06-21 17:14:08 - INFO - Limpieza completada: 4 conversaciones eliminadas
+2025-06-21 17:14:38 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes alguna solla??' | Normalizada: 'tienes alguna solla' | Continuación: False | Product Type: None
+2025-06-21 17:14:38 - INFO - Total productos obtenidos: 50
+2025-06-21 17:14:38 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:14:38 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:14:38 - INFO - Iniciando búsqueda semántica
+2025-06-21 17:14:40 - INFO - Búsqueda semántica completada: 10 productos encontrados
+2025-06-21 17:14:42 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-21 17:15:24 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes otros ejemplos??' | Normalizada: 'tienes otros ejemplos' | Continuación: True | Product Type: None
+2025-06-21 17:15:24 - INFO - Total productos obtenidos: 50
+2025-06-21 17:15:24 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:15:24 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:15:24 - INFO - Iniciando búsqueda semántica
+2025-06-21 17:15:25 - INFO - Búsqueda semántica completada: 11 productos encontrados
+2025-06-21 17:15:27 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-21 17:15:38 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes otros ejemplos dame unos 5??' | Normalizada: 'tienes otros ejemplos dame unos 5' | Continuación: True | Product Type: None
+2025-06-21 17:15:38 - INFO - Total productos obtenidos: 50
+2025-06-21 17:15:38 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:15:38 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:15:40 - INFO - Búsqueda exitosa - 2 productos mostrados de 4 solicitados
+2025-06-21 17:18:35 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:18:36 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:18:43 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:18:45 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:18:47 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:18:58 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:19:00 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:19:41 - ERROR - Error inesperado en /chat: Illegal trailing comma before end of object: line 2 column 43 (char 49)
+Traceback (most recent call last):
+  File "C:\Users\marco\OneDrive\Escritorio\IA\main.py", line 185, in chat
+    data = await request.json()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marco\OneDrive\Escritorio\IA\venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ~~~~~~~~~~^^^^^^
+  File "C:\Users\marco\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\marco\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marco\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Illegal trailing comma before end of object: line 2 column 43 (char 49)
+2025-06-21 17:19:47 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes alguna solla??' | Normalizada: 'tienes alguna solla' | Continuación: False | Product Type: None
+2025-06-21 17:19:47 - INFO - Total productos obtenidos: 50
+2025-06-21 17:19:47 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:19:47 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:19:47 - INFO - Iniciando búsqueda semántica
+2025-06-21 17:19:49 - INFO - Búsqueda semántica completada: 10 productos encontrados
+2025-06-21 17:19:50 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-21 17:20:35 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes otros 5??' | Normalizada: 'tienes otros 5' | Continuación: True | Product Type: None
+2025-06-21 17:20:35 - INFO - Total productos obtenidos: 50
+2025-06-21 17:20:35 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:20:35 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:20:35 - INFO - Iniciando búsqueda semántica
+2025-06-21 17:20:37 - INFO - Búsqueda semántica completada: 5 productos encontrados
+2025-06-21 17:20:38 - INFO - Búsqueda exitosa - 1 productos mostrados de 4 solicitados
+2025-06-21 17:21:05 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes otros 10??' | Normalizada: 'tienes otros 10' | Continuación: True | Product Type: None
+2025-06-21 17:21:05 - INFO - Total productos obtenidos: 50
+2025-06-21 17:21:05 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:21:05 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:21:05 - INFO - Iniciando búsqueda semántica
+2025-06-21 17:21:07 - INFO - Búsqueda semántica completada: 10 productos encontrados
+2025-06-21 17:21:09 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-21 17:21:57 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'dame unas 10 sillas??' | Normalizada: 'dame unas' | Continuación: False | Product Type: None
+2025-06-21 17:21:57 - INFO - Total productos obtenidos: 50
+2025-06-21 17:21:57 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:21:57 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:21:57 - INFO - Iniciando búsqueda semántica
+2025-06-21 17:21:59 - INFO - Búsqueda semántica completada: 7 productos encontrados
+2025-06-21 17:22:04 - INFO - Búsqueda exitosa - 7 productos mostrados de 10 solicitados
+2025-06-21 17:26:02 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:26:08 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:26:10 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:27:43 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:29:56 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:31:37 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sillas' | Normalizada: 'tienes sillas' | Continuación: False | Product Type: silla
+2025-06-21 17:31:37 - INFO - Total productos obtenidos: 50
+2025-06-21 17:31:37 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:31:37 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:31:39 - INFO - Búsqueda exitosa - 1 productos mostrados de 4 solicitados
+2025-06-21 17:33:24 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:33:32 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:33:34 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:33:40 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:33:42 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:34:10 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sillas' | Normalizada: 'tienes sillas' | Continuación: False | Product Type: silla
+2025-06-21 17:34:10 - INFO - Total productos obtenidos: 50
+2025-06-21 17:34:10 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:34:10 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:34:11 - INFO - Búsqueda exitosa - 1 productos mostrados de 4 solicitados
+2025-06-21 17:34:44 - INFO - Consulta de continuación detectada. Buscando más: silla
+2025-06-21 17:34:44 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes mas ejemplos' | Normalizada: 'silla' | Continuación: True | Product Type: silla
+2025-06-21 17:34:44 - INFO - Total productos obtenidos: 50
+2025-06-21 17:34:44 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:34:44 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:34:46 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-21 17:35:39 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sila' | Normalizada: 'tienes sila' | Continuación: False | Product Type: None
+2025-06-21 17:35:40 - INFO - Total productos obtenidos: 50
+2025-06-21 17:35:40 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:35:40 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:35:40 - INFO - Iniciando búsqueda semántica
+2025-06-21 17:35:41 - INFO - Búsqueda semántica completada: 10 productos encontrados
+2025-06-21 17:35:43 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-21 17:37:03 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:37:10 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:37:11 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:37:21 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:37:23 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:37:32 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:37:34 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:37:41 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:38:22 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sila' | Normalizada: 'tienes sila' | Continuación: False | Product Type: None
+2025-06-21 17:38:22 - INFO - Total productos obtenidos: 50
+2025-06-21 17:38:22 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:38:22 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:38:22 - INFO - Iniciando búsqueda semántica
+2025-06-21 17:38:23 - INFO - Búsqueda semántica completada: 12 productos encontrados
+2025-06-21 17:38:25 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-21 17:38:36 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sillas' | Normalizada: 'tienes sillas' | Continuación: False | Product Type: silla
+2025-06-21 17:38:36 - INFO - Total productos obtenidos: 50
+2025-06-21 17:38:36 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:38:36 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:38:37 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-21 17:41:14 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:41:22 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes silla' | Normalizada: 'tienes silla' | Continuación: False | Product Type: silla
+2025-06-21 17:41:22 - INFO - Total productos obtenidos: 50
+2025-06-21 17:41:22 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:41:22 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:41:22 - INFO -    - Silla de Oficina (ID: 3)
+2025-06-21 17:41:22 - INFO -    - Silla de Comedor Acapulco (ID: 8)
+2025-06-21 17:41:22 - INFO -    - Sillas Plegables para Eventos (ID: 27)
+2025-06-21 17:41:22 - INFO -    - Silla Ergonómica Ejecutiva (ID: 1)
+2025-06-21 17:41:22 - INFO -    - Silla de Comedor Moderna (ID: 32)
+2025-06-21 17:41:22 - INFO -    - Silla de Oficina Giratoria (ID: 34)
+2025-06-21 17:41:22 - INFO -    - Silla Plegable para Terraza (ID: 36)
+2025-06-21 17:41:22 - INFO -    - Silla de Escritorio Juvenil (ID: 38)
+2025-06-21 17:41:22 - INFO -    - Silla de Barra Alta (ID: 40)
+2025-06-21 17:41:22 - INFO -    - Silla de Terciopelo Elegante (ID: 42)
+2025-06-21 17:41:22 - INFO -    - Silla Gamer Profesional (ID: 44)
+2025-06-21 17:41:22 - INFO -    - Silla Mecedora de Madera (ID: 46)
+2025-06-21 17:41:22 - INFO -    - Silla de Director Ejecutiva (ID: 48)
+2025-06-21 17:41:22 - INFO -    - Silla de Comedor Rústica (ID: 50)
+2025-06-21 17:41:24 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-21 17:41:37 - INFO - Programador de limpieza automática iniciado
+2025-06-21 17:41:43 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes silla' | Normalizada: 'tienes silla' | Continuación: False | Product Type: silla
+2025-06-21 17:41:44 - INFO - Total productos obtenidos: 50
+2025-06-21 17:41:44 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:41:44 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:41:45 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-21 17:41:52 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sillas' | Normalizada: 'tienes sillas' | Continuación: False | Product Type: silla
+2025-06-21 17:41:52 - INFO - Total productos obtenidos: 50
+2025-06-21 17:41:52 - INFO - Total plantillas obtenidas: 3
+2025-06-21 17:41:52 - INFO - Iniciando búsqueda por texto
+2025-06-21 17:41:54 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados

@@ -1,0 +1,84 @@
+2025-06-19 10:37:29 - INFO - Programador de limpieza automática iniciado
+2025-06-19 10:37:29 - INFO - Conversación eliminada por edad: 1a92b0f5-45da-4c24-b2bb-1de31ff7b867.json
+2025-06-19 10:37:29 - INFO - Conversación eliminada por edad: 943259ac-5569-4a7e-a45e-43918e8b84a3.json
+2025-06-19 10:37:29 - INFO - Conversación eliminada por edad: a66b7bcb-2bba-4cef-89bc-b752c5eba7d7.json
+2025-06-19 10:37:29 - INFO - Conversación eliminada por edad: example_session.json
+2025-06-19 10:37:29 - INFO - Conversación eliminada por edad: test-session-123.json
+2025-06-19 10:37:29 - INFO - Limpieza completada: 5 conversaciones eliminadas
+2025-06-19 14:37:30 - INFO - Programador de limpieza automática iniciado
+2025-06-19 14:40:28 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes silas??' | Normalizada: 'tienes silas' | Continuación: False | Product Type: None
+2025-06-19 14:40:29 - INFO - Total productos obtenidos: 50
+2025-06-19 14:40:29 - INFO - Total plantillas obtenidas: 3
+2025-06-19 14:40:29 - INFO - Iniciando búsqueda por texto
+2025-06-19 14:40:29 - INFO - Iniciando búsqueda semántica
+2025-06-19 14:40:30 - INFO - Búsqueda semántica completada: 11 productos encontrados
+2025-06-19 14:40:32 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-19 14:41:09 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes mas ejemplos??' | Normalizada: 'tienes mas ejemplos' | Continuación: True | Product Type: None
+2025-06-19 14:41:10 - INFO - Total productos obtenidos: 50
+2025-06-19 14:41:10 - INFO - Total plantillas obtenidas: 3
+2025-06-19 14:41:10 - INFO - Iniciando búsqueda por texto
+2025-06-19 14:41:10 - INFO - Iniciando búsqueda semántica
+2025-06-19 14:41:11 - INFO - Búsqueda semántica completada: 11 productos encontrados
+2025-06-19 14:41:13 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-19 14:41:23 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes mas ejemplos??' | Normalizada: 'tienes mas ejemplos' | Continuación: True | Product Type: None
+2025-06-19 14:41:24 - INFO - Total productos obtenidos: 50
+2025-06-19 14:41:24 - INFO - Total plantillas obtenidas: 3
+2025-06-19 14:41:24 - INFO - Iniciando búsqueda por texto
+2025-06-19 14:41:24 - INFO - Iniciando búsqueda semántica
+2025-06-19 14:41:25 - INFO - Búsqueda semántica completada: 10 productos encontrados
+2025-06-19 14:41:27 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-19 14:48:01 - INFO - Programador de limpieza automática iniciado
+2025-06-19 14:48:39 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes mas ejemplos??' | Normalizada: 'tienes mas ejemplos' | Continuación: True | Product Type: None
+2025-06-19 14:48:40 - INFO - Total productos obtenidos: 50
+2025-06-19 14:48:40 - INFO - Total plantillas obtenidas: 3
+2025-06-19 14:48:40 - INFO - Iniciando búsqueda por texto
+2025-06-19 14:48:40 - INFO - Iniciando búsqueda semántica
+2025-06-19 14:48:41 - INFO - Búsqueda semántica completada: 11 productos encontrados
+2025-06-19 14:48:43 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-19 14:48:52 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes mas ejemplos??' | Normalizada: 'tienes mas ejemplos' | Continuación: True | Product Type: None
+2025-06-19 14:48:52 - INFO - Total productos obtenidos: 50
+2025-06-19 14:48:52 - INFO - Total plantillas obtenidas: 3
+2025-06-19 14:48:52 - INFO - Iniciando búsqueda por texto
+2025-06-19 14:48:52 - INFO - Iniciando búsqueda semántica
+2025-06-19 14:48:53 - INFO - Búsqueda semántica completada: 7 productos encontrados
+2025-06-19 14:48:53 - INFO - Búsqueda exitosa - 0 productos mostrados de 4 solicitados
+2025-06-19 14:49:06 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes camas??' | Normalizada: 'tienes camas' | Continuación: False | Product Type: cama
+2025-06-19 14:49:07 - INFO - Total productos obtenidos: 50
+2025-06-19 14:49:07 - INFO - Total plantillas obtenidas: 3
+2025-06-19 14:49:34 - INFO - Consulta de continuación detectada. Buscando más: cama
+2025-06-19 14:49:34 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes mas ejemplos??' | Normalizada: 'cama' | Continuación: True | Product Type: cama
+2025-06-19 14:49:34 - INFO - Total productos obtenidos: 50
+2025-06-19 14:49:34 - INFO - Total plantillas obtenidas: 3
+2025-06-19 21:05:21 - INFO - Programador de limpieza automática iniciado
+2025-06-19 21:05:21 - INFO - Conversación eliminada por edad: 42f98017-14ab-490d-b1cd-2fd10898fc22.json
+2025-06-19 21:05:21 - INFO - Limpieza completada: 1 conversaciones eliminadas
+2025-06-19 21:38:54 - INFO - Programador de limpieza automática iniciado
+2025-06-19 21:39:10 - INFO - Programador de limpieza automática iniciado
+2025-06-19 21:41:59 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes alguna siya??' | Normalizada: 'tienes alguna siya' | Continuación: False | Product Type: None
+2025-06-19 21:41:59 - INFO - Total productos obtenidos: 50
+2025-06-19 21:41:59 - INFO - Total plantillas obtenidas: 3
+2025-06-19 21:41:59 - INFO - Iniciando búsqueda por texto
+2025-06-19 21:41:59 - INFO - Iniciando búsqueda semántica
+2025-06-19 21:42:01 - INFO - Búsqueda semántica completada: 9 productos encontrados
+2025-06-19 21:42:03 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-19 21:42:38 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes alguna siillaa??' | Normalizada: 'tienes alguna siillaa' | Continuación: False | Product Type: None
+2025-06-19 21:42:38 - INFO - Total productos obtenidos: 50
+2025-06-19 21:42:38 - INFO - Total plantillas obtenidas: 3
+2025-06-19 21:42:38 - INFO - Iniciando búsqueda por texto
+2025-06-19 21:42:38 - INFO - Iniciando búsqueda semántica
+2025-06-19 21:42:40 - INFO - Búsqueda semántica completada: 8 productos encontrados
+2025-06-19 21:42:41 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-19 21:43:00 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes alguna cilla??' | Normalizada: 'tienes alguna cilla' | Continuación: False | Product Type: None
+2025-06-19 21:43:00 - INFO - Total productos obtenidos: 50
+2025-06-19 21:43:00 - INFO - Total plantillas obtenidas: 3
+2025-06-19 21:43:00 - INFO - Iniciando búsqueda por texto
+2025-06-19 21:43:00 - INFO - Iniciando búsqueda semántica
+2025-06-19 21:43:02 - INFO - Búsqueda semántica completada: 8 productos encontrados
+2025-06-19 21:43:04 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-19 21:43:23 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes alguna ciya??' | Normalizada: 'tienes alguna ciya' | Continuación: False | Product Type: None
+2025-06-19 21:43:24 - INFO - Total productos obtenidos: 50
+2025-06-19 21:43:24 - INFO - Total plantillas obtenidas: 3
+2025-06-19 21:43:24 - INFO - Iniciando búsqueda por texto
+2025-06-19 21:43:24 - INFO - Iniciando búsqueda semántica
+2025-06-19 21:43:25 - INFO - Búsqueda semántica completada: 7 productos encontrados
+2025-06-19 21:43:27 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados

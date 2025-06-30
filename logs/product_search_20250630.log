@@ -1,0 +1,69 @@
+2025-06-30 14:18:00 - INFO - Programador de limpieza automática iniciado
+2025-06-30 14:18:00 - INFO - Conversación eliminada por edad: d1b78363-4498-4903-a7bf-18b449730c4c.json
+2025-06-30 14:18:00 - INFO - Conversación eliminada por edad: e2f6f588-0685-4a77-a4f8-783c5fad5230.json
+2025-06-30 14:18:00 - INFO - Limpieza completada: 2 conversaciones eliminadas
+2025-06-30 14:18:35 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes algun sillonn' | Normalizada: 'tienes algun sillonn' | Continuación: False | Product Type: None
+2025-06-30 14:18:37 - ERROR - Error inesperado en /chat: column "attributes_normalized" does not exist
+Traceback (most recent call last):
+  File "C:\Users\marco\OneDrive\Escritorio\IA\main.py", line 285, in chat
+    all_products = await get_all_products()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marco\OneDrive\Escritorio\IA\db.py", line 41, in get_all_products
+    rows = await conn.fetch("""
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<14 lines>...
+    """)
+    ^^^^
+  File "C:\Users\marco\OneDrive\Escritorio\IA\venv\Lib\site-packages\asyncpg\connection.py", line 690, in fetch
+    return await self._execute(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\marco\OneDrive\Escritorio\IA\venv\Lib\site-packages\asyncpg\connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\marco\OneDrive\Escritorio\IA\venv\Lib\site-packages\asyncpg\connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\marco\OneDrive\Escritorio\IA\venv\Lib\site-packages\asyncpg\connection.py", line 2004, in _do_execute
+    stmt = await self._get_statement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\marco\OneDrive\Escritorio\IA\venv\Lib\site-packages\asyncpg\connection.py", line 432, in _get_statement
+    statement = await self._protocol.prepare(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "asyncpg\\protocol\\protocol.pyx", line 165, in prepare
+asyncpg.exceptions.UndefinedColumnError: column "attributes_normalized" does not exist
+2025-06-30 14:19:37 - INFO - Programador de limpieza automática iniciado
+2025-06-30 14:20:31 - INFO - Programador de limpieza automática iniciado
+2025-06-30 14:20:45 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes algun sillon?' | Normalizada: 'tienes algun sillon' | Continuación: False | Product Type: None
+2025-06-30 14:20:51 - INFO - Total productos obtenidos: 4
+2025-06-30 14:20:51 - INFO - Total plantillas obtenidas: 0
+2025-06-30 14:20:51 - INFO - Iniciando búsqueda por texto
+2025-06-30 14:20:51 - INFO - Iniciando búsqueda semántica
+2025-06-30 14:20:52 - INFO - Búsqueda semántica completada: 0 productos encontrados
+2025-06-30 14:20:52 - INFO - Iniciando búsqueda por estilo
+2025-06-30 14:20:52 - INFO - Búsqueda por estilo completada: 0 productos encontrados
+2025-06-30 14:20:52 - INFO - Búsqueda exitosa - 0 productos mostrados de 4 solicitados
+2025-06-30 14:39:47 - INFO - Programador de limpieza automática iniciado
+2025-06-30 14:40:35 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes alguna silla' | Normalizada: 'tienes alguna silla' | Continuación: False | Product Type: silla
+2025-06-30 14:40:40 - INFO - Total productos obtenidos: 4
+2025-06-30 14:40:40 - INFO - Total plantillas obtenidas: 0
+2025-06-30 14:40:40 - INFO - Iniciando búsqueda por texto
+2025-06-30 14:40:40 - INFO - Iniciando búsqueda semántica
+2025-06-30 14:40:41 - INFO - Búsqueda semántica completada: 0 productos encontrados
+2025-06-30 14:40:41 - INFO - Iniciando búsqueda por estilo
+2025-06-30 14:40:43 - INFO - Búsqueda por estilo completada: 0 productos encontrados
+2025-06-30 14:40:43 - INFO - Búsqueda exitosa - 0 productos mostrados de 4 solicitados

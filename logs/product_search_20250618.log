@@ -1,0 +1,114 @@
+2025-06-18 16:31:50 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes otras??' | Normalizada: 'tienes otras'
+2025-06-18 16:31:50 - INFO - Total productos obtenidos: 50
+2025-06-18 16:31:50 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:31:50 - INFO - Iniciando búsqueda por texto
+2025-06-18 16:31:50 - INFO - Iniciando búsqueda semántica
+2025-06-18 16:31:53 - INFO - Búsqueda semántica completada: 0 productos encontrados
+2025-06-18 16:31:53 - INFO - Iniciando búsqueda por estilo
+2025-06-18 16:31:53 - INFO - Búsqueda por estilo completada: 0 productos encontrados
+2025-06-18 16:31:53 - INFO - Búsqueda exitosa - 0 productos mostrados de 4 solicitados
+2025-06-18 16:32:19 - ERROR - Error inesperado en /chat: Expecting property name enclosed in double quotes: line 4 column 5 (char 60)
+Traceback (most recent call last):
+  File "C:\Users\marco\OneDrive\Escritorio\IA\main.py", line 154, in chat
+    data = await request.json()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marco\OneDrive\Escritorio\IA\venv\Lib\site-packages\starlette\requests.py", line 249, in json
+    self._json = json.loads(body)
+                 ~~~~~~~~~~^^^^^^
+  File "C:\Users\marco\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\marco\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marco\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 4 column 5 (char 60)
+2025-06-18 16:32:26 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sillas??' | Normalizada: 'tienes sillas'
+2025-06-18 16:32:26 - INFO - Total productos obtenidos: 50
+2025-06-18 16:32:26 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:32:26 - INFO - Iniciando búsqueda por texto
+2025-06-18 16:32:28 - INFO - Búsqueda exitosa - 1 productos mostrados de 4 solicitados
+2025-06-18 16:33:08 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes otros ejemplos??' | Normalizada: 'tienes otros ejemplos'
+2025-06-18 16:33:08 - INFO - Total productos obtenidos: 50
+2025-06-18 16:33:08 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:33:08 - INFO - Iniciando búsqueda por texto
+2025-06-18 16:33:08 - INFO - Iniciando búsqueda semántica
+2025-06-18 16:33:10 - INFO - Búsqueda semántica completada: 12 productos encontrados
+2025-06-18 16:33:11 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-18 16:33:52 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes alguna cama??' | Normalizada: 'tienes alguna cama'
+2025-06-18 16:33:52 - INFO - Total productos obtenidos: 50
+2025-06-18 16:33:52 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:34:20 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes otros ejemplos??' | Normalizada: 'tienes otros ejemplos'
+2025-06-18 16:34:20 - INFO - Total productos obtenidos: 50
+2025-06-18 16:34:20 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:34:20 - INFO - Iniciando búsqueda por texto
+2025-06-18 16:34:20 - INFO - Iniciando búsqueda semántica
+2025-06-18 16:34:22 - INFO - Búsqueda semántica completada: 9 productos encontrados
+2025-06-18 16:34:23 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-18 16:46:22 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:47:06 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:47:07 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:47:18 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:47:21 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:49:27 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes otros ejemplos??' | Normalizada: 'tienes otros ejemplos' | Continuación: True
+2025-06-18 16:49:27 - INFO - Total productos obtenidos: 50
+2025-06-18 16:49:27 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:49:27 - INFO - Iniciando búsqueda por texto
+2025-06-18 16:49:27 - INFO - Iniciando búsqueda semántica
+2025-06-18 16:49:32 - INFO - Búsqueda semántica completada: 10 productos encontrados
+2025-06-18 16:49:34 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-18 16:49:48 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes alguna silla ??' | Normalizada: 'tienes alguna silla' | Continuación: False
+2025-06-18 16:49:49 - INFO - Total productos obtenidos: 50
+2025-06-18 16:49:49 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:49:49 - INFO - Iniciando búsqueda por texto
+2025-06-18 16:49:50 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-18 16:50:17 - INFO - Consulta de continuación detectada. Buscando más: silla
+2025-06-18 16:50:17 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes otros ejemplos ??' | Normalizada: 'silla' | Continuación: True
+2025-06-18 16:50:17 - INFO - Total productos obtenidos: 50
+2025-06-18 16:50:17 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:50:17 - INFO - Iniciando búsqueda por texto
+2025-06-18 16:50:18 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-18 16:50:39 - INFO - Consulta de continuación detectada. Buscando más: silla
+2025-06-18 16:50:39 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes camas??' | Normalizada: 'silla' | Continuación: True
+2025-06-18 16:50:39 - INFO - Total productos obtenidos: 50
+2025-06-18 16:50:39 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:50:39 - INFO - Iniciando búsqueda por texto
+2025-06-18 16:50:41 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-18 16:51:04 - INFO - Consulta de continuación detectada. Buscando más: silla
+2025-06-18 16:51:04 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes otros ejemplos??' | Normalizada: 'silla' | Continuación: True
+2025-06-18 16:51:04 - INFO - Total productos obtenidos: 50
+2025-06-18 16:51:04 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:51:04 - INFO - Iniciando búsqueda por texto
+2025-06-18 16:51:05 - INFO - Búsqueda exitosa - 2 productos mostrados de 4 solicitados
+2025-06-18 16:54:18 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:54:25 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:54:27 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:54:36 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:54:38 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:54:43 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:54:50 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:55:00 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:55:01 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:55:09 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:55:10 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:55:29 - INFO - Programador de limpieza automática iniciado
+2025-06-18 16:59:18 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sillas??' | Normalizada: 'tienes sillas' | Continuación: False | Product Type: silla
+2025-06-18 16:59:19 - INFO - Total productos obtenidos: 50
+2025-06-18 16:59:19 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:59:19 - INFO - Iniciando búsqueda por texto
+2025-06-18 16:59:20 - INFO - Búsqueda exitosa - 1 productos mostrados de 4 solicitados
+2025-06-18 16:59:45 - INFO - Consulta de continuación detectada. Buscando más: silla
+2025-06-18 16:59:45 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes otros ejemplos??' | Normalizada: 'silla' | Continuación: True | Product Type: silla
+2025-06-18 16:59:45 - INFO - Total productos obtenidos: 50
+2025-06-18 16:59:45 - INFO - Total plantillas obtenidas: 3
+2025-06-18 16:59:45 - INFO - Iniciando búsqueda por texto
+2025-06-18 16:59:47 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-18 17:00:12 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes camas??' | Normalizada: 'tienes camas' | Continuación: False | Product Type: cama
+2025-06-18 17:00:13 - INFO - Total productos obtenidos: 50
+2025-06-18 17:00:13 - INFO - Total plantillas obtenidas: 3
+2025-06-18 17:00:41 - INFO - Consulta de continuación detectada. Buscando más: cama
+2025-06-18 17:00:41 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes mas ejemplos??' | Normalizada: 'cama' | Continuación: True | Product Type: cama
+2025-06-18 17:00:41 - INFO - Total productos obtenidos: 50
+2025-06-18 17:00:41 - INFO - Total plantillas obtenidas: 3

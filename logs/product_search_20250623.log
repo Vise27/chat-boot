@@ -1,0 +1,101 @@
+2025-06-23 12:34:26 - INFO - Programador de limpieza automática iniciado
+2025-06-23 12:34:26 - INFO - Conversación eliminada por edad: 194de81f-283f-488a-ab13-9a0236222a78.json
+2025-06-23 12:34:26 - INFO - Conversación eliminada por edad: 325c9d62-d3e4-4516-850b-7dbab6a4a0d0.json
+2025-06-23 12:34:26 - INFO - Conversación eliminada por edad: 3da00894-f4b3-4477-8224-aee045c28c77.json
+2025-06-23 12:34:26 - INFO - Conversación eliminada por edad: 71f25ebc-252f-4348-bd59-760b975258e6.json
+2025-06-23 12:34:26 - INFO - Conversación eliminada por edad: c1d95cbd-a48d-4b4f-8042-156682a9e8a9.json
+2025-06-23 12:34:26 - INFO - Conversación eliminada por edad: c5ad24a9-2a2f-4312-9154-0e9a5566f586.json
+2025-06-23 12:34:26 - INFO - Conversación eliminada por edad: cfc93ca5-f0f2-4d5c-9841-52c9c68199cd.json
+2025-06-23 12:34:26 - INFO - Conversación eliminada por edad: d670d3ff-ed2c-4462-aaf4-f97433477e2d.json
+2025-06-23 12:34:26 - INFO - Conversación eliminada por edad: d740061e-8ddd-4982-be0c-44514dbcff3c.json
+2025-06-23 12:34:26 - INFO - Conversación eliminada por edad: dc31db75-1cc3-4a61-898c-099117fad079.json
+2025-06-23 12:34:26 - INFO - Conversación eliminada por edad: ef56c9b5-756c-44ba-978b-09ddc197d854.json
+2025-06-23 12:34:26 - INFO - Limpieza completada: 11 conversaciones eliminadas
+2025-06-23 13:56:59 - INFO - Programador de limpieza automática iniciado
+2025-06-23 13:57:15 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sillas' | Normalizada: 'tienes sillas' | Continuación: False | Product Type: silla
+2025-06-23 13:57:15 - INFO - Total productos obtenidos: 50
+2025-06-23 13:57:15 - INFO - Total plantillas obtenidas: 3
+2025-06-23 13:57:15 - INFO - Iniciando búsqueda por texto
+2025-06-23 13:57:17 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-23 13:57:43 - INFO - Consulta de continuación detectada. Buscando más: silla
+2025-06-23 13:57:43 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes mas??' | Normalizada: 'silla' | Continuación: True | Product Type: silla
+2025-06-23 13:57:43 - INFO - Total productos obtenidos: 50
+2025-06-23 13:57:43 - INFO - Total plantillas obtenidas: 3
+2025-06-23 13:57:43 - INFO - Iniciando búsqueda por texto
+2025-06-23 13:57:44 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-23 13:58:15 - INFO - Consulta de continuación detectada. Buscando más: silla
+2025-06-23 13:58:15 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes kamas??' | Normalizada: 'silla' | Continuación: True | Product Type: silla
+2025-06-23 13:58:16 - INFO - Total productos obtenidos: 50
+2025-06-23 13:58:16 - INFO - Total plantillas obtenidas: 3
+2025-06-23 13:58:16 - INFO - Iniciando búsqueda por texto
+2025-06-23 13:58:17 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-23 13:58:30 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes camas??' | Normalizada: 'tienes camas' | Continuación: False | Product Type: cama
+2025-06-23 13:58:30 - INFO - Total productos obtenidos: 50
+2025-06-23 13:58:30 - INFO - Total plantillas obtenidas: 3
+2025-06-23 13:58:47 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes cillas??' | Normalizada: 'tienes cillas' | Continuación: False | Product Type: None
+2025-06-23 13:58:47 - INFO - Total productos obtenidos: 50
+2025-06-23 13:58:47 - INFO - Total plantillas obtenidas: 3
+2025-06-23 13:58:47 - INFO - Iniciando búsqueda por texto
+2025-06-23 13:58:47 - INFO - Iniciando búsqueda semántica
+2025-06-23 13:58:49 - INFO - Búsqueda semántica completada: 11 productos encontrados
+2025-06-23 13:58:50 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-23 13:59:01 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes ciyas??' | Normalizada: 'tienes ciyas' | Continuación: False | Product Type: None
+2025-06-23 13:59:01 - INFO - Total productos obtenidos: 50
+2025-06-23 13:59:01 - INFO - Total plantillas obtenidas: 3
+2025-06-23 13:59:01 - INFO - Iniciando búsqueda por texto
+2025-06-23 13:59:01 - INFO - Iniciando búsqueda semántica
+2025-06-23 13:59:03 - INFO - Búsqueda semántica completada: 12 productos encontrados
+2025-06-23 13:59:04 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-23 13:59:23 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sillad??' | Normalizada: 'tienes sillad' | Continuación: False | Product Type: silla
+2025-06-23 13:59:23 - INFO - Total productos obtenidos: 50
+2025-06-23 13:59:23 - INFO - Total plantillas obtenidas: 3
+2025-06-23 13:59:23 - INFO - Iniciando búsqueda por texto
+2025-06-23 13:59:23 - INFO - Iniciando búsqueda semántica
+2025-06-23 13:59:25 - INFO - Búsqueda semántica completada: 12 productos encontrados
+2025-06-23 13:59:26 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-23 13:59:40 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes xama??' | Normalizada: 'tienes xama' | Continuación: False | Product Type: None
+2025-06-23 13:59:40 - INFO - Total productos obtenidos: 50
+2025-06-23 13:59:40 - INFO - Total plantillas obtenidas: 3
+2025-06-23 13:59:40 - INFO - Iniciando búsqueda por texto
+2025-06-23 13:59:40 - INFO - Iniciando búsqueda semántica
+2025-06-23 13:59:41 - INFO - Búsqueda semántica completada: 11 productos encontrados
+2025-06-23 13:59:43 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-23 14:32:43 - INFO - Programador de limpieza automática iniciado
+2025-06-23 14:36:24 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sillas??' | Normalizada: 'tienes sillas' | Continuación: False | Product Type: silla
+2025-06-23 14:36:24 - INFO - Total productos obtenidos: 50
+2025-06-23 14:36:24 - INFO - Total plantillas obtenidas: 3
+2025-06-23 14:36:24 - INFO - Iniciando búsqueda por texto
+2025-06-23 14:36:26 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-23 14:36:33 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes xillas??' | Normalizada: 'tienes xillas' | Continuación: False | Product Type: None
+2025-06-23 14:36:33 - INFO - Total productos obtenidos: 50
+2025-06-23 14:36:33 - INFO - Total plantillas obtenidas: 3
+2025-06-23 14:36:33 - INFO - Iniciando búsqueda por texto
+2025-06-23 14:36:33 - INFO - Iniciando búsqueda semántica
+2025-06-23 14:36:34 - INFO - Búsqueda semántica completada: 11 productos encontrados
+2025-06-23 14:36:36 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-23 14:37:14 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sillas dame 7?' | Normalizada: 'tienes sillas' | Continuación: False | Product Type: silla
+2025-06-23 14:37:14 - INFO - Total productos obtenidos: 50
+2025-06-23 14:37:14 - INFO - Total plantillas obtenidas: 3
+2025-06-23 14:37:14 - INFO - Iniciando búsqueda por texto
+2025-06-23 14:37:16 - INFO - Búsqueda exitosa - 7 productos mostrados de 7 solicitados
+2025-06-23 14:46:45 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes sillas dame 5' | Normalizada: 'tienes sillas' | Continuación: False | Product Type: silla
+2025-06-23 14:46:46 - INFO - Total productos obtenidos: 50
+2025-06-23 14:46:46 - INFO - Total plantillas obtenidas: 3
+2025-06-23 14:46:46 - INFO - Iniciando búsqueda por texto
+2025-06-23 14:46:47 - INFO - Búsqueda exitosa - 5 productos mostrados de 5 solicitados
+2025-06-23 14:47:17 - INFO - Consulta de continuación detectada. Buscando más: silla
+2025-06-23 14:47:17 - INFO - Búsqueda iniciada - Tipo: product | Original: 'dame mas' | Normalizada: 'silla' | Continuación: True | Product Type: silla
+2025-06-23 14:47:17 - INFO - Total productos obtenidos: 50
+2025-06-23 14:47:17 - INFO - Total plantillas obtenidas: 3
+2025-06-23 14:47:17 - INFO - Iniciando búsqueda por texto
+2025-06-23 14:47:18 - INFO - Búsqueda exitosa - 4 productos mostrados de 4 solicitados
+2025-06-23 14:47:48 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes camas' | Normalizada: 'tienes camas' | Continuación: False | Product Type: cama
+2025-06-23 14:47:48 - INFO - Total productos obtenidos: 50
+2025-06-23 14:47:48 - INFO - Total plantillas obtenidas: 3
+2025-06-23 14:50:42 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes cillas dame 5' | Normalizada: 'tienes cillas' | Continuación: False | Product Type: None
+2025-06-23 14:50:43 - INFO - Total productos obtenidos: 50
+2025-06-23 14:50:43 - INFO - Total plantillas obtenidas: 3
+2025-06-23 14:50:43 - INFO - Iniciando búsqueda por texto
+2025-06-23 14:50:43 - INFO - Iniciando búsqueda semántica
+2025-06-23 14:50:44 - INFO - Búsqueda semántica completada: 11 productos encontrados
+2025-06-23 14:50:46 - INFO - Búsqueda exitosa - 5 productos mostrados de 5 solicitados

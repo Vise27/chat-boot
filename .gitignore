@@ -1,0 +1,40 @@
+# Virtual environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+secrets.json
+
+# LLM models and cache
+models/
+cache/
+*.bin
+*.gguf
+*.safetensors
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Only ignore conversation files, not the logs directory structure
+logs/conversations/*.json 
