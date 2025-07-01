@@ -275,6 +275,25 @@ async def chat(request: Request):
         requested_quantity, clean_query = extract_quantity_from_query(raw_query)
         user_query = normalize_text(clean_query)
         
+        # 3.5. Verificar si es un mensaje social (saludo, despedida, agradecimiento)
+        social_response = detect_social_message(user_query)
+        if social_response:
+            # Guardar en conversación
+            add_message_to_conversation(
+                session_data, raw_query, "social", 
+                response=social_response
+            )
+            
+            return {
+                "response": social_response,
+                "products": [],
+                "query_type": "social",
+                "requested_quantity": 0,
+                "available_quantity": 0,
+                "session_id": session_id,
+                "last_products": last_products
+            }
+        
         # 4. Detectar si es una consulta de continuación
         is_continuation = detect_continuation_query(user_query)
         if is_continuation:
@@ -369,7 +388,6 @@ async def chat(request: Request):
         ambiente = product_analyzer.detect_ambiente(user_query)
         if ambiente:
             productos_agrupados = product_analyzer.analizar_productos(all_products, ambiente)
-            response_text = product_analyzer.generar_resumen(productos_agrupados, ambiente)
             
             # Preparar lista plana de productos para la respuesta
             productos_planos = []
@@ -381,6 +399,12 @@ async def chat(request: Request):
             
             # Limitar a la cantidad solicitada
             productos_planos = productos_planos[:requested_quantity]
+            
+            # Generar resumen solo de los productos nuevos
+            if productos_planos:
+                response_text = await ask_llama_summary_for_products(productos_planos)
+            else:
+                response_text = ""
             
             # Preparar mensaje de cantidad
             quantity_message = ""
@@ -482,7 +506,10 @@ async def chat(request: Request):
             else:
                 quantity_message = f"\n\nSolo encontré {available_quantity} productos más que coinciden con tu búsqueda de {requested_quantity} solicitados."
 
-        response_text = await ask_llama_summary_for_products(products_to_show) + quantity_message
+        if products_to_show:
+            response_text = await ask_llama_summary_for_products(products_to_show) + quantity_message
+        else:
+            response_text = quantity_message
         logger.info(f"Búsqueda exitosa - {len(products_to_show)} productos mostrados de {requested_quantity} solicitados")
 
         # Actualizar lista de productos mostrados
@@ -741,6 +768,51 @@ def start_cleanup_scheduler():
     cleanup_thread = threading.Thread(target=cleanup_loop, daemon=True)
     cleanup_thread.start()
     logger.info("Programador de limpieza automática iniciado")
+
+def detect_social_message(user_query: str) -> Optional[str]:
+    """Detecta si el mensaje es un saludo, despedida o agradecimiento y retorna una respuesta apropiada"""
+    
+    # Normalizar la consulta
+    normalized_query = normalize_text(user_query.lower())
+    
+    # Saludos
+    saludos = [
+        "hola", "ola", "hey", "buenos dias", "buenas", "buen dia", "buenas tardes", 
+        "buenas noches", "que tal", "como estas", "como estás", "que onda", 
+        "saludos", "buen dia", "buenos días", "buenas tardes", "buenas noches",
+        "hi", "hello", "good morning", "good afternoon", "good evening"
+    ]
+    
+    # Despedidas
+    despedidas = [
+        "adios", "adiós", "chao", "chau", "hasta luego", "nos vemos", "hasta la vista",
+        "que tengas un buen dia", "que tengas un buen día", "cuídate", "cuídate mucho",
+        "bye", "goodbye", "see you", "take care", "hasta pronto", "hasta mañana"
+    ]
+    
+    # Agradecimientos
+    agradecimientos = [
+        "gracias", "grasias", "muchas gracias", "te agradezco", "muy agradecido", 
+        "muy agradecida", "mil gracias", "gracias por todo", "te lo agradezco",
+        "thanks", "thank you", "thank you very much", "appreciate it"
+    ]
+    
+    # Verificar saludos
+    for saludo in saludos:
+        if saludo in normalized_query:
+            return "¡Hola! 👋 Soy tu asistente de decoración. ¿En qué puedo ayudarte hoy? Puedo recomendarte muebles, plantillas de diseño o ayudarte a encontrar el estilo perfecto para tu espacio."
+    
+    # Verificar despedidas
+    for despedida in despedidas:
+        if despedida in normalized_query:
+            return "¡Hasta luego! 👋 Ha sido un placer ayudarte con tu decoración. Si necesitas más ideas o recomendaciones, no dudes en volver. ¡Que tengas un excelente día!"
+    
+    # Verificar agradecimientos
+    for agradecimiento in agradecimientos:
+        if agradecimiento in normalized_query:
+            return "¡De nada! 😊 Me alegra haber podido ayudarte. Si necesitas más recomendaciones o tienes otras preguntas sobre decoración, estoy aquí para ayudarte."
+    
+    return None
 
 def get_all_shown_products(session_data: dict) -> list:
     """Devuelve una lista de todos los IDs de productos ya mostrados en la conversación."""

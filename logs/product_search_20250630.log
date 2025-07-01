@@ -67,3 +67,48 @@ asyncpg.exceptions.UndefinedColumnError: column "attributes_normalized" does not
 2025-06-30 14:40:41 - INFO - Iniciando búsqueda por estilo
 2025-06-30 14:40:43 - INFO - Búsqueda por estilo completada: 0 productos encontrados
 2025-06-30 14:40:43 - INFO - Búsqueda exitosa - 0 productos mostrados de 4 solicitados
+2025-06-30 20:16:02 - INFO - Programador de limpieza automática iniciado
+2025-06-30 20:16:02 - INFO - Conversación eliminada por edad: demo-session-1.json
+2025-06-30 20:16:02 - INFO - Limpieza completada: 1 conversaciones eliminadas
+2025-06-30 20:23:12 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes mesas ?' | Normalizada: 'tienes mesas' | Continuación: False | Product Type: mesa
+2025-06-30 20:23:16 - INFO - Total productos obtenidos: 4
+2025-06-30 20:23:16 - INFO - Total plantillas obtenidas: 0
+2025-06-30 20:24:20 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes mesas ?' | Normalizada: 'tienes mesas' | Continuación: False | Product Type: mesa
+2025-06-30 20:24:23 - INFO - Total productos obtenidos: 4
+2025-06-30 20:24:23 - INFO - Total plantillas obtenidas: 0
+2025-06-30 20:25:16 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes alguna mesa?' | Normalizada: 'tienes alguna mesa' | Continuación: False | Product Type: mesa
+2025-06-30 20:25:20 - INFO - Total productos obtenidos: 4
+2025-06-30 20:25:20 - INFO - Total plantillas obtenidas: 0
+2025-06-30 20:27:47 - INFO - Programador de limpieza automática iniciado
+2025-06-30 20:27:47 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes alguna mesa?' | Normalizada: 'tienes alguna mesa' | Continuación: False | Product Type: mesa
+2025-06-30 20:27:54 - INFO - Total productos obtenidos: 2
+2025-06-30 20:27:54 - INFO - Total plantillas obtenidas: 0
+2025-06-30 20:28:50 - INFO - Consulta de continuación detectada. Buscando más: mesa
+2025-06-30 20:28:50 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes mas?' | Normalizada: 'mesa' | Continuación: True | Product Type: mesa
+2025-06-30 20:28:56 - INFO - Total productos obtenidos: 2
+2025-06-30 20:28:56 - INFO - Total plantillas obtenidas: 0
+2025-06-30 20:33:21 - INFO - Programador de limpieza automática iniciado
+2025-06-30 20:34:01 - INFO - Programador de limpieza automática iniciado
+2025-06-30 20:34:10 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes alguna mesa?' | Normalizada: 'tienes alguna mesa' | Continuación: False | Product Type: mesa
+2025-06-30 20:34:16 - INFO - Total productos obtenidos: 2
+2025-06-30 20:34:16 - INFO - Total plantillas obtenidas: 0
+2025-06-30 20:34:37 - INFO - Consulta de continuación detectada. Buscando más: mesa
+2025-06-30 20:34:37 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes mas?' | Normalizada: 'mesa' | Continuación: True | Product Type: mesa
+2025-06-30 20:34:47 - INFO - Total productos obtenidos: 2
+2025-06-30 20:34:47 - INFO - Total plantillas obtenidas: 0
+2025-06-30 20:35:41 - INFO - Programador de limpieza automática iniciado
+2025-06-30 20:35:44 - INFO - Programador de limpieza automática iniciado
+2025-06-30 20:36:00 - INFO - Consulta de continuación detectada. Buscando más: mesa
+2025-06-30 20:36:00 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes mas?' | Normalizada: 'mesa' | Continuación: True | Product Type: mesa
+2025-06-30 20:36:06 - INFO - Total productos obtenidos: 2
+2025-06-30 20:36:06 - INFO - Total plantillas obtenidas: 0
+2025-06-30 20:37:52 - INFO - Programador de limpieza automática iniciado
+2025-06-30 20:38:03 - INFO - Programador de limpieza automática iniciado
+2025-06-30 20:38:28 - INFO - Programador de limpieza automática iniciado
+2025-06-30 20:39:12 - INFO - Búsqueda iniciada - Tipo: generic | Original: 'tienes mesas ?' | Normalizada: 'tienes mesas' | Continuación: False | Product Type: mesa
+2025-06-30 20:39:19 - INFO - Total productos obtenidos: 2
+2025-06-30 20:39:19 - INFO - Total plantillas obtenidas: 0
+2025-06-30 20:39:40 - INFO - Consulta de continuación detectada. Buscando más: mesa
+2025-06-30 20:39:40 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes mas?' | Normalizada: 'mesa' | Continuación: True | Product Type: mesa
+2025-06-30 20:39:46 - INFO - Total productos obtenidos: 2
+2025-06-30 20:39:46 - INFO - Total plantillas obtenidas: 0
