@@ -1,0 +1,20 @@
+2025-07-04 17:06:32 - INFO - Programador de limpieza automática iniciado
+2025-07-04 17:06:32 - INFO - Conversación eliminada por edad: 0b421280-f735-4549-b078-8d5569a1797b.json
+2025-07-04 17:06:32 - INFO - Conversación eliminada por edad: 22a41e17-2aa4-42f5-80ef-4ac58d985e6e.json
+2025-07-04 17:06:32 - INFO - Conversación eliminada por edad: 2a97a064-9e61-4b5c-bdf3-0267c3ce020d.json
+2025-07-04 17:06:32 - INFO - Conversación eliminada por edad: 4559684b-9991-4e6a-bbd4-014d1e026be0.json
+2025-07-04 17:06:32 - INFO - Conversación eliminada por edad: 5e47a23b-84d5-4d98-87e4-a0aeeac3daba.json
+2025-07-04 17:06:32 - INFO - Conversación eliminada por edad: 7ad9f80a-8611-4f3c-a9d3-4875d37e93c0.json
+2025-07-04 17:06:32 - INFO - Limpieza completada: 6 conversaciones eliminadas
+2025-07-04 17:07:13 - INFO - Programador de limpieza automática iniciado
+2025-07-04 17:07:40 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes alguna mesa?' | Normalizada: 'tienes alguna mesa' | Continuación: False | Product Type: mesa
+2025-07-04 17:07:52 - INFO - Total productos obtenidos: 6
+2025-07-04 17:07:52 - INFO - Total plantillas obtenidas: 0
+2025-07-04 17:09:08 - INFO - Programador de limpieza automática iniciado
+2025-07-04 17:09:11 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes alguna mesa?' | Normalizada: 'tienes alguna mesa' | Continuación: False | Product Type: mesa
+2025-07-04 17:09:17 - INFO - Total productos obtenidos: 6
+2025-07-04 17:09:17 - INFO - Total plantillas obtenidas: 0
+2025-07-04 17:09:40 - INFO - Consulta de continuación detectada. Buscando más: mesa
+2025-07-04 17:09:40 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes mas ejemplos?' | Normalizada: 'mesa' | Continuación: True | Product Type: mesa
+2025-07-04 17:09:46 - INFO - Total productos obtenidos: 6
+2025-07-04 17:09:46 - INFO - Total plantillas obtenidas: 0
