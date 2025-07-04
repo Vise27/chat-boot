@@ -18,3 +18,7 @@
 2025-07-04 17:09:40 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes mas ejemplos?' | Normalizada: 'mesa' | Continuación: True | Product Type: mesa
 2025-07-04 17:09:46 - INFO - Total productos obtenidos: 6
 2025-07-04 17:09:46 - INFO - Total plantillas obtenidas: 0
+2025-07-04 17:14:15 - INFO - Programador de limpieza automática iniciado
+2025-07-04 17:14:26 - INFO - Búsqueda iniciada - Tipo: product | Original: 'tienes alguna mesa?' | Normalizada: 'tienes alguna mesa' | Continuación: False | Product Type: mesa
+2025-07-04 17:14:32 - INFO - Total productos obtenidos: 6
+2025-07-04 17:14:32 - INFO - Total plantillas obtenidas: 0
